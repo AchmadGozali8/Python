@@ -1,9 +1,10 @@
 print "implementasi loop dan operator"
 print ""
-i = 1
-hasil = 0
-while i <= 15:
-	print "loop ke - %d = %d + %d"%(i,hasil,i)
-	hasil = hasil + i
-	i += 1
-print "totalnya adalah= ",hasil
+print "Daftar makanan khas bugis"
+makanan=[]
+banyak_makanan = input("Berapa jenis nama makanan bugis yang akan direkomendasikan: ")
+for i in range(banyak_makanan):
+	a = raw_input("Masukkan nama makanan yang anda rekomendasikan: ")
+	makanan.append(a)
+	
+print "daftar makanan yang kami rekomendasikan yaitu: ", makanan
